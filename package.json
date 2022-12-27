@@ -1,0 +1,30 @@
+{
+  "name": "nuxt3-template",
+  "description": "Opinionated Nuxt 3 Starter Template",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@7.20.0",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "pretty": "prettier --write \"./**/*.{js,ts,vue,css}\" \"!**/.nuxt/**\""
+  },
+  "engines": {
+    "node": "^16.15.0"
+  },
+  "devDependencies": {
+    "@iconify-json/carbon": "^1.1.11",
+    "@iconify-json/twemoji": "^1.1.7",
+    "@nuxtjs/color-mode": "^3.2.0",
+    "@pinia/nuxt": "^0.4.6",
+    "@unocss/nuxt": "^0.47.5",
+    "@vueuse/nuxt": "^9.6.0",
+    "nuxt": "3.0.0",
+    "pinia": "^2.0.27",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.3"
+  }
+}

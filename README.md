@@ -2,16 +2,20 @@
 
 ## Nuxt 3 Modules
 
+- [VueUse](https://vueuse.org) - Collection of Vue Composition Utilities.
 - [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand Atomic CSS engine.
-- [VueUse](https://vueuse.org/) - Collection of Vue Composition Utilities.
-- [Pinia](https://pinia.vuejs.org/) - The Vue Store that you will enjoy using.
-- [Color mode](https://color-mode.nuxtjs.org/) - Dark and Light mode with auto detection made easy with Nuxt 🌗.
+- [Pinia](https://pinia.vuejs.org) - The Vue Store that you will enjoy using.
+- [Headless UI](https://headlessui.com) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
+- [Color mode](https://color-mode.nuxtjs.org) - Dark and Light mode with auto detection made easy with Nuxt 🌗.
+- [Content](https://content.nuxtjs.org) - Content made easy for Vue Developers.
+- [Image](https://v1.image.nuxtjs.org) - Plug-and-play image optimization for Nuxt apps.
+- [Iconify](https://iconify.design) - All popular icon sets, one framework.
+- [I18n](https://v8.i18n.nuxtjs.org/) - I18n module for Nuxt.
 
 ## Other Features
 
 - [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager.
 - [Prettier](https://prettier.io/) - Opinionated code formatter.
-- [Iconify](https://iconify.design) - All popular icon sets, one framework.
 - [TypeScript](https://www.typescriptlang.org/) - Why not?
 
 ## Setup
@@ -53,5 +57,4 @@ When you use this template, try follow the checklist to update your info properl
 - [ ] Change the name and description in `package.json`
 - [ ] Change the author name in `LICENSE`
 - [ ] Remove `<NuxtWelcome />` in `pages/index.vue`
-- [ ] Remove the `.github` folder which contains the funding info
 - [ ] Clean up the READMEs and remove routes

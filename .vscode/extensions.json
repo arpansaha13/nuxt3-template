@@ -1,9 +1,9 @@
 {
   "recommendations": [
-    "vue.volar",
-    "antfu.iconify",
+    "streetsidesoftware.code-spell-checker",
+    "esbenp.prettier-vscode",
     "antfu.unocss",
-    "csstools.postcss",
-    "esbenp.prettier-vscode"
+    "antfu.iconify",
+    "vue.volar"
   ]
 }

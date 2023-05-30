@@ -22,6 +22,9 @@ export default defineNuxtConfig({
 
     // https://nuxt.com/modules/headlessui
     'nuxt-headlessui',
+
+    // https://nuxt.com/modules/fontaine
+    '@nuxtjs/fontaine',
   ],
   css: ['@unocss/reset/tailwind.css', 'assets/main.css'],
   colorMode: {

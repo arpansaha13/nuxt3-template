@@ -3,7 +3,7 @@
   "description": "Opinionated Nuxt 3 Starter Template",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@7.20.0",
+  "packageManager": "pnpm@8.5.1",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -13,21 +13,22 @@
     "pretty": "prettier --write \"./**/*.{js,ts,vue,css}\" \"!**/.nuxt/**\""
   },
   "engines": {
-    "node": "^16.15.0"
+    "node": ">=16.0.0"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.4.3",
-    "@nuxt/image-edge": "1.0.0-27954023.4cee565",
+    "@nuxt/content": "^2.6.0",
+    "@nuxt/image-edge": "1.0.0-28089462.3520a62",
     "@nuxtjs/color-mode": "^3.2.0",
-    "@nuxtjs/i18n": "8.0.0-beta.10",
-    "@pinia/nuxt": "^0.4.6",
-    "@unocss/nuxt": "^0.47.5",
-    "@vueuse/nuxt": "^9.6.0",
-    "nuxt": "^3.2.3",
-    "nuxt-headlessui": "^1.1.1",
-    "nuxt-icon": "^0.3.2",
-    "pinia": "^2.0.27",
-    "prettier": "^2.8.1",
-    "typescript": "^4.9.3"
+    "@nuxtjs/fontaine": "^0.2.5",
+    "@nuxtjs/i18n": "8.0.0-beta.12",
+    "@pinia/nuxt": "^0.4.11",
+    "@unocss/nuxt": "^0.52.4",
+    "@vueuse/nuxt": "^10.1.2",
+    "nuxt": "^3.5.2",
+    "nuxt-headlessui": "^1.1.4",
+    "nuxt-icon": "^0.4.1",
+    "pinia": "^2.1.3",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
   }
 }

@@ -10,6 +10,7 @@
 - [Content](https://content.nuxtjs.org) - Content made easy for Vue Developers.
 - [Image](https://v1.image.nuxtjs.org) - Plug-and-play image optimization for Nuxt apps.
 - [Iconify](https://iconify.design) - All popular icon sets, one framework.
+- [Fontaine](https://nuxt.com/modules/fontaine) - Automatically optimized font fallback based on font metrics
 - [I18n](https://v8.i18n.nuxtjs.org/) - I18n module for Nuxt.
 
 ## Other Features

@@ -4,7 +4,9 @@
   "tabWidth": 2,
   "printWidth": 120,
   "useTabs": false,
-  "jsxSingleQuote": true,
   "arrowParens": "avoid",
-  "trailingComma": "es5"
+  "trailingComma": "es5",
+  "jsxSingleQuote": false,
+  "quoteProps": "consistent",
+  "singleAttributePerLine": false
 }

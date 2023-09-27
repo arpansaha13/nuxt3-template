@@ -23,6 +23,7 @@
     "nuxt",
     "nuxtjs",
     "pinia",
+    "preinstall",
     "saha",
     "unocss",
     "vueuse"

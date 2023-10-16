@@ -29,6 +29,14 @@ export default defineNuxtConfig({
     // https://html-validator.nuxtjs.org/
     '@nuxtjs/html-validator',
   ],
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'en',
+      },
+      title: 'Nuxt Template',
+    },
+  },
   css: ['@unocss/reset/tailwind.css', 'assets/main.css'],
   colorMode: {
     preference: 'dark',

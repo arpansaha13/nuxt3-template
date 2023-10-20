@@ -14,22 +14,22 @@
     "pretty": "prettier --write \"./**/*.{js,ts,vue,css}\" \"!**/.nuxt/**\""
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.8.4",
-    "@nuxt/image": "1.0.0-rc.2",
+    "@nuxt/content": "^2.8.5",
+    "@nuxt/image": "^1.0.0",
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/fontaine": "^0.4.1",
     "@nuxtjs/html-validator": "^1.5.2",
     "@nuxtjs/i18n": "8.0.0-beta.12",
     "@pinia/nuxt": "^0.4.11",
-    "@unocss/nuxt": "^0.56.4",
-    "@vueuse/nuxt": "^10.4.1",
-    "nuxt": "^3.7.4",
+    "@unocss/nuxt": "^0.56.5",
+    "@vueuse/nuxt": "^10.5.0",
+    "nuxt": "^3.8.0",
     "nuxt-headlessui": "^1.1.4",
     "nuxt-icon": "^0.4.2",
-    "pinia": "^2.1.6",
+    "pinia": "^2.1.7",
     "prettier": "^2.8.8",
     "typescript": "^5.2.2"
   }

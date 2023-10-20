@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     // https://v8.i18n.nuxtjs.org/
     '@nuxtjs/i18n',
 
-    // https://v1.image.nuxtjs.org/
+    // https://image.nuxt.com
     '@nuxt/image',
 
     // https://nuxt.com/modules/icon

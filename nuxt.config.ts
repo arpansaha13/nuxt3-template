@@ -26,6 +26,9 @@ export default defineNuxtConfig({
     // https://nuxt.com/modules/fontaine
     '@nuxtjs/fontaine',
 
+    // https://google-fonts.nuxtjs.org/
+    '@nuxtjs/google-fonts',
+
     // https://html-validator.nuxtjs.org/
     '@nuxtjs/html-validator',
   ],
@@ -42,6 +45,14 @@ export default defineNuxtConfig({
     preference: 'dark',
     classPrefix: '',
     classSuffix: '',
+  },
+  googleFonts: {
+    families: {
+      Poppins: {
+        wght: [400, 500, 600, 700],
+        display: 'swap',
+      },
+    },
   },
   htmlValidator: {
     usePrettier: false,

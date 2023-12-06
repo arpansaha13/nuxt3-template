@@ -34,7 +34,6 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en',
       },
-      title: 'Nuxt Template',
     },
   },
   css: ['@unocss/reset/tailwind.css', 'assets/main.css'],

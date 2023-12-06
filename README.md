@@ -6,12 +6,16 @@
 - [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand Atomic CSS engine.
 - [Pinia](https://pinia.vuejs.org) - The Vue Store that you will enjoy using.
 - [Headless UI](https://headlessui.com) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
-- [Color mode](https://color-mode.nuxtjs.org) - Dark and Light mode with auto detection made easy with Nuxt 🌗.
+- [Color mode](https://color-mode.nuxtjs.org) - Dark and Light mode with auto-detection made easy with Nuxt 🌗.
 - [Content](https://content.nuxtjs.org) - Content made easy for Vue Developers.
 - [Image](https://v1.image.nuxtjs.org) - Plug-and-play image optimization for Nuxt apps.
 - [Iconify](https://iconify.design) - All popular icon sets, one framework.
-- [Fontaine](https://nuxt.com/modules/fontaine) - Automatically optimized font fallback based on font metrics
+- [Fontaine](https://nuxt.com/modules/fontaine) - Automatically optimized font fallback based on font metrics.
 - [I18n](https://v8.i18n.nuxtjs.org/) - I18n module for Nuxt.
+- [Google fonts](https://google-fonts.nuxtjs.org/) - Google Fonts module for Nuxt.
+- [HTML validator](https://html-validator.nuxtjs.org/) - Automatically validate Nuxt server-rendered HTML.
+
+> These are the pre-packed modules in this starter template. Feel free to ditch any module you won't be using.
 
 ## Other Features
 
@@ -53,9 +57,10 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 ## Checklist
 
-When you use this template, try follow the checklist to update your info properly
+When you use this template, try to follow the checklist to update your info properly
 
 - [ ] Change the name and description in `package.json`
 - [ ] Change the author name in `LICENSE`
 - [ ] Remove `<NuxtWelcome />` in `pages/index.vue`
 - [ ] Clean up the READMEs and remove routes
+- [ ] Clean up the images in `public/`

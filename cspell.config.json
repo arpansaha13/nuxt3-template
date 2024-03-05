@@ -25,7 +25,6 @@
     "pinia",
     "preinstall",
     "saha",
-    "unocss",
     "vueuse"
   ],
   "patterns": [

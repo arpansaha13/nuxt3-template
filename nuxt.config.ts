@@ -2,29 +2,25 @@
 export default defineNuxtConfig({
   modules: [
     '@vueuse/nuxt',
-    '@unocss/nuxt',
     '@pinia/nuxt',
 
-    // https://color-mode.nuxtjs.org/
-    '@nuxtjs/color-mode',
+    // https://ui.nuxt.com/
+    '@nuxt/ui',
 
     // https://content.nuxtjs.org/
     '@nuxt/content',
 
-    // https://v8.i18n.nuxtjs.org/
-    '@nuxtjs/i18n',
-
     // https://image.nuxt.com
     '@nuxt/image',
 
-    // https://nuxt.com/modules/icon
-    'nuxt-icon',
-
-    // https://nuxt.com/modules/headlessui
-    'nuxt-headlessui',
+    // https://v8.i18n.nuxtjs.org/
+    '@nuxtjs/i18n',
 
     // https://nuxt.com/modules/fontaine
     '@nuxtjs/fontaine',
+
+    // https://nuxt.com/modules/headlessui
+    'nuxt-headlessui',
 
     // https://google-fonts.nuxtjs.org/
     '@nuxtjs/google-fonts',
@@ -40,7 +36,10 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/png', href: '/favicon.ico' }],
     },
   },
-  css: ['@unocss/reset/tailwind.css', 'assets/main.css'],
+  css: ['assets/main.css'],
+  headlessui: {
+    prefix: 'Headless',
+  },
   colorMode: {
     preference: 'dark',
     classPrefix: '',

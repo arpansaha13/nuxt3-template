@@ -2,20 +2,26 @@
 
 ## Nuxt 3 Modules
 
+- [NuxtUI](https://ui.nuxt.com) - A UI Library for Modern Web Apps.
 - [VueUse](https://vueuse.org) - Collection of Vue Composition Utilities.
-- [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand Atomic CSS engine.
 - [Pinia](https://pinia.vuejs.org) - The Vue Store that you will enjoy using.
 - [Headless UI](https://headlessui.com) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
-- [Color mode](https://color-mode.nuxtjs.org) - Dark and Light mode with auto-detection made easy with Nuxt 🌗.
 - [Content](https://content.nuxtjs.org) - Content made easy for Vue Developers.
-- [Image](https://v1.image.nuxtjs.org) - Plug-and-play image optimization for Nuxt apps.
 - [Iconify](https://iconify.design) - All popular icon sets, one framework.
 - [Fontaine](https://nuxt.com/modules/fontaine) - Automatically optimized font fallback based on font metrics.
-- [I18n](https://v8.i18n.nuxtjs.org/) - I18n module for Nuxt.
-- [Google fonts](https://google-fonts.nuxtjs.org/) - Google Fonts module for Nuxt.
-- [HTML validator](https://html-validator.nuxtjs.org/) - Automatically validate Nuxt server-rendered HTML.
+- [I18n](https://v8.i18n.nuxtjs.org) - I18n module for Nuxt.
+- [Google fonts](https://google-fonts.nuxtjs.org) - Google Fonts module for Nuxt.
+- [HTML validator](https://html-validator.nuxtjs.org) - Automatically validate Nuxt server-rendered HTML.
 
 > These are the pre-packed modules in this starter template. Feel free to ditch any module you won't be using.
+
+## Nuxt UI Modules
+
+These modules are pre-packed with the Nuxt UI module.
+
+- [TailwindCSS](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML.
+- [Color mode](https://color-mode.nuxtjs.org) - Dark and Light mode with auto-detection made easy with Nuxt 🌗.
+- [Image](https://v1.image.nuxtjs.org) - Plug-and-play image optimization for Nuxt apps.
 
 ## Other Features
 

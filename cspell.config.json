@@ -25,6 +25,7 @@
     "pinia",
     "preinstall",
     "saha",
+    "unlighthouse",
     "vueuse"
   ],
   "patterns": [

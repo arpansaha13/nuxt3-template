@@ -27,6 +27,7 @@ These modules are pre-packed with the Nuxt UI module.
 - [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager.
 - [Prettier](https://prettier.io/) - Opinionated code formatter.
 - [TypeScript](https://www.typescriptlang.org/) - Why not?
+- [Unlighthouse](https://unlighthouse.dev/) - Like Google Lighthouse, but it scans every single page.
 
 ## Setup
 

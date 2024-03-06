@@ -1,7 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
+    // https://vueuse.org/
     '@vueuse/nuxt',
+
+    // https://pinia.vuejs.org/
     '@pinia/nuxt',
 
     // https://ui.nuxt.com/
@@ -13,17 +16,14 @@ export default defineNuxtConfig({
     // https://image.nuxt.com
     '@nuxt/image',
 
+    // https://nuxt.com/modules/fonts
+    '@nuxt/fonts',
+
     // https://v8.i18n.nuxtjs.org/
     '@nuxtjs/i18n',
 
-    // https://nuxt.com/modules/fontaine
-    '@nuxtjs/fontaine',
-
     // https://nuxt.com/modules/headlessui
     'nuxt-headlessui',
-
-    // https://google-fonts.nuxtjs.org/
-    '@nuxtjs/google-fonts',
 
     // https://html-validator.nuxtjs.org/
     '@nuxtjs/html-validator',
@@ -38,20 +38,12 @@ export default defineNuxtConfig({
   },
   css: ['assets/main.css'],
   headlessui: {
-    prefix: 'Headless',
+    prefix: '',
   },
   colorMode: {
     preference: 'dark',
     classPrefix: '',
     classSuffix: '',
-  },
-  googleFonts: {
-    families: {
-      Poppins: {
-        wght: [400, 500, 600, 700],
-        display: 'swap',
-      },
-    },
   },
   htmlValidator: {
     usePrettier: false,

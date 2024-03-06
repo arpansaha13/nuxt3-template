@@ -7,7 +7,7 @@
 - [Pinia](https://pinia.vuejs.org) - The Vue Store that you will enjoy using.
 - [Headless UI](https://headlessui.com) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 - [Content](https://content.nuxtjs.org) - Content made easy for Vue Developers.
-- [Iconify](https://iconify.design) - All popular icon sets, one framework.
+- [Image](https://v1.image.nuxtjs.org) - Plug-and-play image optimization for Nuxt apps.
 - [Fontaine](https://nuxt.com/modules/fontaine) - Automatically optimized font fallback based on font metrics.
 - [I18n](https://v8.i18n.nuxtjs.org) - I18n module for Nuxt.
 - [Google fonts](https://google-fonts.nuxtjs.org) - Google Fonts module for Nuxt.
@@ -21,7 +21,7 @@ These modules are pre-packed with the Nuxt UI module.
 
 - [TailwindCSS](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML.
 - [Color mode](https://color-mode.nuxtjs.org) - Dark and Light mode with auto-detection made easy with Nuxt 🌗.
-- [Image](https://v1.image.nuxtjs.org) - Plug-and-play image optimization for Nuxt apps.
+- [Icon](https://nuxt.com/modules/icon) - Icon module for Nuxt with 100,000+ ready to use icons from Iconify.
 
 ## Other Features
 

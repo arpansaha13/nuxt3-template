@@ -22,6 +22,8 @@ These modules are pre-packed with the Nuxt UI module.
 - [Color mode](https://color-mode.nuxtjs.org) - Dark and Light mode with auto-detection made easy with Nuxt 🌗.
 - [Icon](https://nuxt.com/modules/icon) - Icon module for Nuxt with 100,000+ ready to use icons from Iconify.
 
+> Nuxt UI includes components powered by Headless UI, but the [nuxt-headlessui](https://nuxt.com/modules/headlessui) module is also added separately to enable native Headless UI syntax and functionality.
+
 ## Other Features
 
 - [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager.

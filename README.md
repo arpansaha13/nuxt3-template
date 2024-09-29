@@ -72,3 +72,4 @@ When you use this template, try to follow the checklist to update your info prop
 - [ ] Remove `<NuxtWelcome />` in `pages/index.vue`
 - [ ] Clean up the READMEs and remove routes
 - [ ] Clean up the images in `public/`
+- [ ] Remove any modules you won't be needing.

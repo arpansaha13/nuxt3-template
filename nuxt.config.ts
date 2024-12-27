@@ -31,6 +31,9 @@ export default defineNuxtConfig({
     // https://html-validator.nuxtjs.org/
     '@nuxtjs/html-validator',
   ],
+
+  srcDir: 'src/',
+
   app: {
     head: {
       htmlAttrs: {
@@ -39,15 +42,19 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/png', href: '/favicon.ico' }],
     },
   },
+
   css: ['assets/main.css'],
+
   headlessui: {
     prefix: '',
   },
+
   colorMode: {
     preference: 'dark',
     classPrefix: '',
     classSuffix: '',
   },
+
   htmlValidator: {
     usePrettier: false,
     logLevel: 'verbose',

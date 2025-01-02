@@ -16,6 +16,9 @@ export default defineNuxtConfig({
     // https://image.nuxt.com
     '@nuxt/image',
 
+    // https://eslint.nuxt.com/
+    '@nuxt/eslint',
+
     // https://nuxt.com/modules/fonts
     '@nuxt/fonts',
 

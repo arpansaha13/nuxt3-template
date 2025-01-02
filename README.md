@@ -8,6 +8,7 @@
 - [Headless UI](https://headlessui.com) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 - [Content](https://content.nuxtjs.org) - Content made easy for Vue Developers.
 - [Image](https://v1.image.nuxtjs.org) - Plug-and-play image optimization for Nuxt apps.
+- [Eslint](https://eslint.org) - The pluggable linting utility for JavaScript and JSX.
 - [Fonts](https://nuxt.com/modules/fonts) - Plug-and-play web font optimization and configuration for Nuxt apps.
 - [I18n](https://v8.i18n.nuxtjs.org) - I18n module for Nuxt.
 - [HTML validator](https://html-validator.nuxtjs.org) - Automatically validate Nuxt server-rendered HTML.

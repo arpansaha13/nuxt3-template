@@ -14,6 +14,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "pretty": "prettier --write \"./**/*.{js,ts,vue,css}\" \"!**/.nuxt/**\"",
+    "test": "vitest run",
     "unlighthouse": "unlighthouse"
   },
   "engines": {
@@ -36,12 +37,12 @@
     "@vue/test-utils": "^2.4.6",
     "@vueuse/nuxt": "^10.11.1",
     "eslint": "^9.21.0",
-    "happy-dom": "^13.10.1",
+    "happy-dom": "^17.3.0",
     "nuxt-headlessui": "^1.2.0",
-    "playwright-core": "^1.50.1",
+    "playwright-core": "^1.51.0",
     "prettier": "^2.8.8",
     "typescript": "^5.8.2",
     "unlighthouse": "^0.11.6",
-    "vitest": "^1.6.1"
+    "vitest": "^3.0.8"
   }
 }

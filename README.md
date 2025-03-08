@@ -29,8 +29,9 @@ These modules are pre-packed with the Nuxt UI module.
 
 - [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager.
 - [Prettier](https://prettier.io/) - Opinionated code formatter.
-- [TypeScript](https://www.typescriptlang.org/) - Why not?
+  - [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss#installation) - Automatic Class Sorting with Prettier. [Read more](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier).
 - [Unlighthouse](https://unlighthouse.dev/) - Like Google Lighthouse, but it scans every single page.
+- [TypeScript](https://www.typescriptlang.org/) - Why not?
 
 ## Setup
 

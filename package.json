@@ -13,7 +13,7 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "pretty": "prettier --write \"./**/*.{js,ts,vue,css}\" \"!**/.nuxt/**\"",
+    "pretty": "prettier --write \"./src/**/*.{js,ts,vue,css}\"",
     "test": "vitest run",
     "unlighthouse": "unlighthouse"
   },
@@ -21,28 +21,28 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "nuxt": "^3.15.4",
-    "pinia": "^2.3.1"
+    "@nuxt/content": "^3.3.0",
+    "@nuxt/fonts": "^0.10.3",
+    "@nuxt/image": "^1.9.0",
+    "@nuxt/ui": "^2.21.1",
+    "@nuxtjs/i18n": "^9.3.0",
+    "@pinia/nuxt": "^0.10.1",
+    "@vueuse/nuxt": "^12.8.2",
+    "nuxt": "^3.16.0",
+    "nuxt-headlessui": "^1.2.0",
+    "pinia": "^3.0.1"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.13.4",
-    "@nuxt/eslint": "^0.7.6",
-    "@nuxt/fonts": "^0.0.1",
-    "@nuxt/image": "^1.9.0",
-    "@nuxt/test-utils": "^3.17.0",
-    "@nuxt/ui": "^2.21.0",
-    "@nuxtjs/html-validator": "^1.8.2",
-    "@nuxtjs/i18n": "^8.5.6",
-    "@pinia/nuxt": "^0.5.5",
+    "@nuxt/eslint": "^1.1.0",
+    "@nuxt/test-utils": "^3.17.1",
+    "@nuxtjs/html-validator": "^2.1.0",
     "@vue/test-utils": "^2.4.6",
-    "@vueuse/nuxt": "^10.11.1",
-    "eslint": "^9.21.0",
-    "happy-dom": "^17.3.0",
-    "nuxt-headlessui": "^1.2.0",
+    "eslint": "^9.22.0",
+    "happy-dom": "^17.4.1",
     "playwright-core": "^1.51.0",
-    "prettier": "^2.8.8",
+    "prettier": "^3.5.3",
     "typescript": "^5.8.2",
-    "unlighthouse": "^0.11.6",
+    "unlighthouse": "^0.16.2",
     "vitest": "^3.0.8"
   }
 }

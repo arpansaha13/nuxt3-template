@@ -25,9 +25,6 @@ export default defineNuxtConfig({
     // https://nuxt.com/docs/getting-started/testing
     '@nuxt/test-utils/module',
 
-    // https://v8.i18n.nuxtjs.org/
-    '@nuxtjs/i18n',
-
     // https://html-validator.nuxtjs.org/
     '@nuxtjs/html-validator',
   ],

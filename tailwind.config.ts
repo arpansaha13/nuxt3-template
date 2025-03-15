@@ -16,7 +16,4 @@ export default <Partial<Config>>{
       },
     },
   },
-  future: {
-    hoverOnlyWhenSupported: true,
-  },
 }

@@ -1,14 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
+    // https://ui.nuxt.com/
+    '@nuxt/ui',
+
     // https://vueuse.org/
     '@vueuse/nuxt',
 
     // https://pinia.vuejs.org/
     '@pinia/nuxt',
-
-    // https://ui.nuxt.com/
-    '@nuxt/ui',
 
     // https://content.nuxtjs.org/
     '@nuxt/content',
@@ -18,9 +18,6 @@ export default defineNuxtConfig({
 
     // https://eslint.nuxt.com/
     '@nuxt/eslint',
-
-    // https://nuxt.com/modules/fonts
-    '@nuxt/fonts',
 
     // https://nuxt.com/docs/getting-started/testing
     '@nuxt/test-utils/module',
@@ -46,7 +43,7 @@ export default defineNuxtConfig({
     },
   },
 
-  css: ['assets/main.css'],
+  css: ['~/assets/css/main.css'],
 
   headlessui: {
     prefix: '',
@@ -63,7 +60,11 @@ export default defineNuxtConfig({
     logLevel: 'verbose',
     failOnError: false,
     options: {
-      extends: ['html-validate:document', 'html-validate:recommended', 'html-validate:standard'],
+      extends: [
+        'html-validate:document',
+        'html-validate:recommended',
+        'html-validate:standard',
+      ],
       rules: {
         'svg-focusable': 'off',
         'no-unknown-elements': 'error',
@@ -79,4 +80,6 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  compatibilityDate: '2025-03-15',
 })

@@ -5,7 +5,7 @@
 - [NuxtUI](https://ui.nuxt.com) - A UI Library for Modern Web Apps.
 - [VueUse](https://vueuse.org) - Collection of Vue Composition Utilities.
 - [Pinia](https://pinia.vuejs.org) - The Vue Store that you will enjoy using.
-- [Headless UI](https://headlessui.com) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
+- [Reka UI](https://reka-ui.com/) - Craft accessible web apps with Vue.
 - [Content](https://content.nuxtjs.org) - Content made easy for Vue Developers.
 - [Image](https://v1.image.nuxtjs.org) - Plug-and-play image optimization for Nuxt apps.
 - [Eslint](https://eslint.org) - The pluggable linting utility for JavaScript and JSX.

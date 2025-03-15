@@ -38,12 +38,12 @@ importers:
       nuxt:
         specifier: ^3.16.0
         version: 3.16.0(@parcel/watcher@2.5.1)(@types/node@22.13.10)(better-sqlite3@11.9.0)(db0@0.3.1(better-sqlite3@11.9.0))(eslint@9.22.0(jiti@2.4.2))(ioredis@5.6.0)(lightningcss@1.29.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.35.0)(terser@5.39.0)(typescript@5.8.2)(vite@6.2.2(@types/node@22.13.10)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(yaml@2.7.0))(yaml@2.7.0)
-      nuxt-headlessui:
-        specifier: ^1.2.0
-        version: 1.2.0(magicast@0.3.5)(vue@3.5.13(typescript@5.8.2))
       pinia:
         specifier: ^3.0.1
         version: 3.0.1(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))
+      reka-ui:
+        specifier: ^2.0.2
+        version: 2.0.2(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))
       tailwindcss:
         specifier: ^4.0.14
         version: 4.0.14
@@ -4448,9 +4448,6 @@ packages:
   nuxt-component-meta@0.10.0:
     resolution: {integrity: sha512-iq7hbSnfp4Ff/PTMYBF8pYabTQuF3u7HVN66Kb3hOnrnaPEdXEn/q6HkAn5V8UjOVSgXYpvycM0wSnwyADYNVA==}
     hasBin: true
-
-  nuxt-headlessui@1.2.0:
-    resolution: {integrity: sha512-eidWwA4SFLWFk2KcGMHlrPTJb+ODEt5Bsj6cXjmhDtRYydqvgYXHU1U7563E6/qMuayThumbGUopF1IRqlYHwA==}
 
   nuxt@3.16.0:
     resolution: {integrity: sha512-4j2tuHo+kcComQ1WrCD+i1w3UFOHrcnNH30cwiEY/WZZlBZOlC6DtUm6aBjhfpBFaMYsF4PbyKsNW+7FHwckHA==}
@@ -11950,15 +11947,6 @@ snapshots:
       vue-component-meta: 2.2.8(typescript@5.8.2)
     transitivePeerDependencies:
       - magicast
-
-  nuxt-headlessui@1.2.0(magicast@0.3.5)(vue@3.5.13(typescript@5.8.2)):
-    dependencies:
-      '@headlessui/vue': 1.7.23(vue@3.5.13(typescript@5.8.2))
-      '@nuxt/kit': 3.16.0(magicast@0.3.5)
-      pathe: 1.1.2
-    transitivePeerDependencies:
-      - magicast
-      - vue
 
   nuxt@3.16.0(@parcel/watcher@2.5.1)(@types/node@22.13.10)(better-sqlite3@11.9.0)(db0@0.3.1(better-sqlite3@11.9.0))(eslint@9.22.0(jiti@2.4.2))(ioredis@5.6.0)(lightningcss@1.29.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.35.0)(terser@5.39.0)(typescript@5.8.2)(vite@6.2.2(@types/node@22.13.10)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(yaml@2.7.0))(yaml@2.7.0):
     dependencies:

@@ -24,6 +24,7 @@
     "nuxtjs",
     "pinia",
     "preinstall",
+    "reka",
     "saha",
     "unlighthouse",
     "vueuse"

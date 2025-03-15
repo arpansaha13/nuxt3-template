@@ -4,6 +4,9 @@ export default defineNuxtConfig({
     // https://ui.nuxt.com/
     '@nuxt/ui',
 
+    // https://reka-ui.com/
+    'reka-ui/nuxt',
+
     // https://vueuse.org/
     '@vueuse/nuxt',
 
@@ -25,9 +28,6 @@ export default defineNuxtConfig({
     // https://v8.i18n.nuxtjs.org/
     '@nuxtjs/i18n',
 
-    // https://nuxt.com/modules/headlessui
-    'nuxt-headlessui',
-
     // https://html-validator.nuxtjs.org/
     '@nuxtjs/html-validator',
   ],
@@ -44,10 +44,6 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/main.css'],
-
-  headlessui: {
-    prefix: '',
-  },
 
   colorMode: {
     preference: 'dark',
